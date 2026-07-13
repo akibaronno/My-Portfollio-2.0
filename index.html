@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    #akib {
+      color: rgb(244, 243, 243);
+    }
+
+    #bg {
+      background-color: #7952b3;
+    }
+
+    .bg {
+      background-color: #7952b3;
+    }
+
+    .bg2 {
+      background-color: #CCCCCC;
+    }
+
+    .bg3 {
+      background-color: #e2dacf;
+    }
+
+    .bg4 {
+      background-color: rgba(231, 111, 46, 0.493);
+    }
+
+    .bg5 {
+      background-color: #e1b48f;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light border-bottom fixed-top" id="bg">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-2 text-orange-600" id="akib" href="#">Farhad Ali Akib</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" id="akib" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" id="akib" href="#aboutme">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" id="akib" href="#education1">Educational Attainments</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <span id="akib">Skills</span>
+              </a>
+              <ul class="dropdown-menu bg" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#skillsid"><span id="akib">Technical</span></a></li>
+                <li><a class="dropdown-item" href="#skillsid"><span id="akib">Soft Skill</span></a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#skillsid"><span id="akib">Co-curicullar</span></a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" id="akib" href="#projectsid">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" id="akib" href="#gallaryid">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" id="akib" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/Akib Domkhali.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Mirsarai,Chittagong</h5>
+          <p>Enjoying a lovely sunny moments besides the marine drive road.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/AKIB campus.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>MBSTU</h5>
+          <p>Morning Walk in Winter at the campus.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/IMG_8656.JPG (1).jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Ocean</h5>
+          <p>Enjoying moments in the Sea Beach.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <section class="about py-5" id="aboutme">
+    <div class="container text-center ">
+      <h2 data-aos="fade-right" data-aos-offset="300">About Me</h2>
+      <hr class="w-25 m-auto">
+
+
+      <div class="section-intro mb-4 abt">
+        <h5 class="py-4">Hi, I'm Farhad Ali Akib</h5>
+        <h6>I'm a motivated and enthusiastic ICT student with a strong foundation across
+          programming, web development, machine learning and software development.
+          I'm currently studied at Mawlana Bhashani Science and Technology University</h6>
+      </div>
+
+      <div class="row pt-5 bg4">
+        <div class="col-12 col-lg-6 col-md-12 col-sm-12" data-aos="fade-right" data-aos-offset="300">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  <h4>Who am I?</h4>
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse apt" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="bg5 accordion-body" color="dark">
+
+                  <h6>I am Akib. </h6>
+                  <h6>Web developer & machine learning enthusiast, building calm,
+                    functional interfaces and exploring the space between code and data.</h6>
+
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  <h4>Hobbies and Interests</h4>
+
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse apt" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="bg5 accordion-body">
+                  <h6>Listening to Music </h6>
+                  <h6>Watching movies and webseries</h6>
+                  <h6>Playing Cricket</h6>
+                  <h6>Photography and Videography</h6>
+
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  <h4>Passion</h4>
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse apt" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample">
+                <div class="bg5 accordion-body">
+                  I am very excited to learn :
+                  <br><br>
+                  <h6>Machine Learning</h6>
+                  <h6>Neural Networks</h6>
+                  <h6>Deep Learning</h6>
+                  <h6>Coding and Programming</h6>
+                  <h6>Research and Thesis</h6>
+                  <h6>Web Development</h6>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                  <h4>Goals</h4>
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                data-bs-parent="#accordionFlushExample">
+                <div class="bg5" color="dark">
+                  <br>
+                  <h6>I wanna be a Machine Learning Engineer</h6>
+                  <br>
+                  <br>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-lg-6 col-md-12 col-sm-12 text-end" data-aos="fade-left" data-aos-offset="300">
+          <div>
+            <img class="faku img-fluid img-thumbnail" height="50" width="50" src="./images/Akib Domkhali.jpg" alt="aku">
+          </div>
+        </div>
+      </div>
+
+  </section>
+  <section class="Education py-5 bg5" id="education1">
+    <div class="container">
+      <div class="text-center">
+        <h2 data-aos="fade-up" data-aos-offset="300">Educational Attainments</h2>
+        <hr class="w-25 m-auto">
+        <h6 class="aku" ata-aos="fade-down" data-aos-offset="110" data-aos-duration="400" class="text-black"> <br> A
+          summary of my academic journey, degrees and <br>
+          institutions that shaped my knowledge and skills.</h6>
+      </div>
+
+      <div class="row pt-5">
+        <div class="col-12 cos-sm-12 col-md-6 col-lg-3 ">
+          <div class="card" style="width: 18rem;">
+            <img src="./images/JSC.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">JSC Result</h5>
+              <p class="card-text"> GPA: 5.00</p>
+              <a href="#" class="btn btn-primary">JSC Archive</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 cos-sm-12 col-md-6 col-lg-3 ">
+          <div class="card edu" style="width: 18rem;">
+            <img src="./images/ssc.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">SSC Result</h5>
+              <p class="card-text">GPA: 5.00</p>
+              <a href="#" class="btn btn-primary">SSC Archive</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 cos-sm-12 col-md-6 col-lg-3 ">
+          <div class="card" style="width: 18rem;">
+            <img src="./images/HSC.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">HSC Result</h5>
+              <p class="card-text">GPA: 5.00</p>
+              <a href="#" class="btn btn-primary">HSC Archive</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 cos-sm-12 col-md-6 col-lg-3 ">
+          <div class="card" style="width: 18rem;">
+            <img src="./images/BSC.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">BSC Result</h5>
+              <p class="card-text">CGPA: 3.50</p>
+              <a href="#" class="btn btn-primary">BSC Archive</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <section class="skills text-dark my-5 bg5" id="skillsid">
+    <div class="container text-center">
+      <h2 data-aos="fade-up" data-aos-offset="100" data-aos-duration="400" class="text-black">
+        Skills
+      </h2>
+      <hr class="w-25 m-auto" />
+      <p data-aos="fade-down" data-aos-offset="110" data-aos-duration="400" class="text-black">
+        Farhad Ali Akib
+      </p>
+    </div>
+
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button text-center fs-4 bg2" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+            aria-controls="panelsStayOpen-collapseOne">
+            Technical Skills
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show bg3 text-dark fs-5">
+          <div class="accordion-body">
+            <ul class="skill-list text-start mx-auto" style="max-width:720px;">
+              <li>C and C++</li>
+              <li>Python</li>
+              <li>Java</li>
+              <li>HTML5</li>
+              <li>CSS3 & Bootstrap 5</li>
+              <li>Responsive Web Design</li>
+              <li>JavaScript</li>
+              <li>AOS animations</li>
+              <li>React JS</li>
+              <li>Node JS</li>
+              <li>Machine Learning</li>
+              <li>MySQL</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed fs-4 bg2" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseTwo">
+            Soft Skills
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse bg3 text-dark fs-5">
+          <div class="accordion-body">
+            <ul class="skill-list text-start mx-auto" style="max-width:720px;">
+              <li>Communication</li>
+              <li>Leadership</li>
+              <li>Critical thinking</li>
+              <li>Teamwork</li>
+              <li>Creativity</li>
+              <li>Problem solving</li>
+              <li>Decision making</li>
+              <li>Time management</li>
+              <li>Adaptability</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed fs-4 bg2" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseThree">
+            Co-curricular Skills
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse bg3 text-dark fs-5">
+          <div class="accordion-body">
+            <ul class="skill-list text-start mx-auto" style="max-width:720px;">
+              <li>Photography</li>
+              <li>Video editing</li>
+              <li>Writing</li>
+              <li>Photography</li>
+              <li>Coding/programming</li>
+              <li>Cricket</li>
+              <li>Volunteering & Event support</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <section class="projects text-black my-5 bg5" id="projectsid">
+    <div class="container">
+      <div class="text-center">
+        <h2 data-aos="fade-up" data-aos-offset="100" data-aos-duration="400" class="text-black">
+          Projects
+        </h2>
+        <hr class="w-25 m-auto" />
+        <p data-aos="fade-down" data-aos-offset="110" data-aos-duration="400" class="text-black">
+          Farhad Ali Akib
+        </p>
+      </div>
+      <div class="row pt-5">
+        <!-- no 1 card -->
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+          <div class="card" style="width: 18rem">
+            <img src="images/qg.avif" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Simple Quiz Game</h5>
+              <p class="card-text">
+                First year project in ++ programming language
+              </p>
+              <a href="" class="btn btn-primary">see in github</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- no 2 card -->
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+          <div class="card" style="width: 18rem">
+            <img src="images/wordgame.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Word Game</h5>
+              <p class="card-text">
+                Second year project using JAVA with mysql database
+              </p>
+              <a href="#" class="btn btn-primary">see in github</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- no 3 card -->
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+          <div class="card" style="width: 18rem">
+            <img src="images/ai notes and quiz.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">AI Notes Generator</h5>
+              <p class="card-text">
+                Third year project using API and machine learning
+              </p>
+              <a href="#" class="btn btn-primary">see in github</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- no 4 card -->
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+          <div class="card" style="width: 18rem">
+            <img src="images/Gemini_Generated_Image_jv70q6jv70q6jv70.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">AQI Generator</h5>
+              <p class="card-text">
+                Third year project using AI and machine learning
+              </p>
+              <a href="#" class="btn btn-primary">see in github</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="gallary bg5 text-dark my-5" id="gallaryid">
+    <div class="container text-center">
+      <h2 data-aos="fade-up" data-aos-offset="100" data-aos-duration="400" class="text-black">
+        Gallary
+      </h2>
+      <hr class="w-25 m-auto" />
+      <p data-aos="fade-down" data-aos-offset="110" data-aos-duration="400" class="text-black">
+        Farhad Ali Akib
+      </p>
+    </div>
+
+    <div class="container my-5">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="images/IMG_8626.JPG (1).jpeg" class="card-img-top img-fluid" alt="Gallery Image">
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="images/IMG_8642.JPG (1).jpeg" class="card-img-top img-fluid" alt="Gallery Image">
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="images/Akib Domkhali.jpg" class="card-img-top img-fluid" alt="Gallery Image">
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="images/IMG_8656.JPG (1).jpeg" class="card-img-top img-fluid" alt="Gallery Image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <br> <br> <br>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact section-dark" id="contact" style="background-color: #0a0a0a; color: #ffffff;">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-5" data-aos="fade-right" data-aos-offset="100">
+
+          <div class="eyebrow">
+            <h2 style="color: #ffffff;">Contact</h2>
+          </div>
+          <h5 class="mb-4" style="color: #ffffff;">Let's talk</h5>
+          <p class="mb-4" style="color: rgba(255, 255, 255, 0.72);">Open to internships, collaborations
+            and interesting problems. Reach out through whichever channel works best for you.</p>
+
+          <div class="contact-detail" style="color: #ffffff;">
+            <span style="color: #ffffff;">Email: </span>
+            <a href="mailto:[YOUR_EMAIL]" style="color: #ffffff;">farhadaliakib314@gmail.com</a>
+          </div>
+          <div class="contact-detail" style="color: #ffffff;">
+            <span style="color: #ffffff;">Phone: </span>
+            <span style="color: #ffffff;">01871235901</span>
+          </div>
+          <div class="contact-detail" style="color: #ffffff;">
+            <span style="color: #ffffff;">Location: </span>
+            <span style="color: #ffffff;">Chittagong, Bangladesh</span>
+          </div>
+          <div class="contact-detail" style="color: #ffffff;">
+            <span style="color: #ffffff;">Github: </span>
+            <a href="https://github.com/akibaronno" target="_blank" rel="noopener" style="color: #ffffff;">Akib</a>
+          </div>
+        </div>
+
+        <div class="col-lg-7" data-aos="fade-left" data-aos-offset="100">
+          <form id="contactForm" novalidate>
+            <div class="row g-4">
+              <div class="col-md-6">
+                <label for="nameInput" class="form-label-akib mb-1" style="color: #ffffff;">Name</label>
+                <input type="text" class="form-control form-control-akib" id="nameInput" placeholder="Your name"
+                  required style="background-color: #1a1a1a; color: #ffffff; border-color: rgba(255,255,255,0.2);">
+              </div>
+              <div class="col-md-6">
+                <label for="emailInput" class="form-label-akib mb-1" style="color: #ffffff;">Email</label>
+                <input type="email" class="form-control form-control-akib" id="emailInput" placeholder="you@example.com"
+                  required style="background-color: #1a1a1a; color: #ffffff; border-color: rgba(255,255,255,0.2);">
+              </div>
+              <div class="col-12">
+                <label for="subjectInput" class="form-label-akib mb-1" style="color: #ffffff;">Subject</label>
+                <input type="text" class="form-control form-control-akib" id="subjectInput"
+                  placeholder="What's this about?"
+                  style="background-color: #1a1a1a; color: #ffffff; border-color: rgba(255,255,255,0.2);">
+              </div>
+              <div class="col-12">
+                <label for="messageInput" class="form-label-akib mb-1" style="color: #ffffff;">Message</label>
+                <textarea class="form-control form-control-akib" id="messageInput" rows="4"
+                  placeholder="Tell me a bit more" required
+                  style="background-color: #1a1a1a; color: #ffffff; border-color: rgba(255,255,255,0.2);"></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn-clay"
+                  style="background-color: #ffffff; color: #0a0a0a; border: none;">Send message</button>
+                <span id="formStatus" class="ms-3"
+                  style="font-family: var(--font-mono); font-size: 0.85rem; color: rgba(255,255,255,0.6);"></span>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
